@@ -4,7 +4,7 @@
 
 form {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .search {
@@ -47,4 +47,22 @@ form {
 
 .submit-button:active {
     box-shadow: none;
+}
+
+/* Results section */
+
+.Results {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 20px 10px; 
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.partOfSpeech {
+    color: var(--main-color);
+    font-style: italic;
 }
