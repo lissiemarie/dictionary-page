@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px auto 10px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+}
