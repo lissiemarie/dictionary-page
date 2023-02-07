@@ -1,4 +1,5 @@
 import { ReactComponent as Study } from "./study.svg";
+import Dictionary from "./dictionary";
 import React from 'react';
 import './App.css';
 
@@ -11,6 +12,8 @@ function App() {
         <h1>Dictionary</h1>
         <h3>What word would you like to look up?</h3> 
       </header>
+      <Dictionary />
+      <footer>Coded by Elyssa Creed and is open-sourced.</footer>
     </div>
   );
 }
