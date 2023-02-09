@@ -4,7 +4,6 @@ import Synonyms from "./Synonyms";
 import "./Dictionary.css";
 
 export default function Meaning(props) {
-    console.log(props.meaning)
     return (
         <div className="Meaning">
             <h4 className="partOfSpeech">{props.meaning.partOfSpeech}</h4>
@@ -12,7 +11,7 @@ export default function Meaning(props) {
                 return(
                     <div key={index}>
                         <p>
-                        {definition.definition}
+                        <strong>▸{definition.definition}</strong>
                         <br />
                         <em>{definition.example}</em>
                         </p>
