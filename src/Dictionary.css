@@ -96,6 +96,15 @@ h2 {
     font-size: 15px;
 }
 
+.img-fluid {
+    border-radius: 20px;
+}
+
+.col-3 {
+    margin-left: 40px;
+}
+
+
 footer a {
     text-decoration: none;
     color: var(--main-color);
