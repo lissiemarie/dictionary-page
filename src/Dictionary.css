@@ -96,6 +96,11 @@ h2 {
     font-size: 15px;
 }
 
+footer a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
 @media (max-width: 880px) {
     .header-picture {
         display: none;

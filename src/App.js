@@ -15,7 +15,7 @@ function App() {
         <h3>What word would you like to look up?</h3> 
       </header>
       <Dictionary />
-      <footer>Coded by <a href="https://lissiemarie90.tech/" target="_blank" rel="noreferrer">Elyssa Creed</a> and is <a href="https://lissiemarie90.tech/" target="_blank" rel="noreferrer">open-sourced</a>.</footer>
+      <footer>Coded by <a href="https://lissiemarie90.tech/" target="_blank" rel="noreferrer">Elyssa Creed</a> and is <a href="https://github.com/lissiemarie/dictionary-page" target="_blank" rel="noreferrer">open-sourced</a>.</footer>
     </div>
   );
 }
