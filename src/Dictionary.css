@@ -91,7 +91,27 @@ h2 {
 .synonym-word {
     border: 2px solid var(--main-color);
     border-radius: 10px;
-    width: 30%;
+    width: 100px;
     padding: 5px;
     font-size: 15px;
+}
+
+@media (max-width: 880px) {
+    .header-picture {
+        display: none;
+    }
+
+    .search {
+        width: 60%;
+    }
+}
+
+@media (max-width: 518px) {
+    .synonym-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search {
+        width: 60%;
+    }
 }
